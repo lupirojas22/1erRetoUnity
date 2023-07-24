@@ -1,0 +1,514 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1690168630310611, "dur": 3690793, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168630311087, "dur": 11860, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168630322949, "dur": 64699, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168630387651, "dur": 655048, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168631042701, "dur": 2951029, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168633993733, "dur": 7671, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168634001864, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1690168630794916, "dur": 220676, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168630796495, "dur": 78522, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168630981502, "dur": 7550, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168630989056, "dur": 26527, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168630990401, "dur": 24306, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168631023558, "dur": 2130, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1690168631022193, "dur": 3532, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168634001982, "dur": 214, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690168631125272, "dur":1368, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168631126651, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690168631126755, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690168631126783, "dur":434, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690168631127272, "dur":1238, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168631128510, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633969844, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633969994, "dur":108, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970102, "dur":250, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970352, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970371, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970375, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970389, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970392, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970401, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970428, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633970466, "dur":2629, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690168631128323, "dur":369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631128692, "dur":7690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631136444, "dur":46882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1690168631183330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631183614, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1690168631184708, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690168631184917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631185364, "dur":29785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690168631215224, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690168631215392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631215416, "dur":29095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1690168631244609, "dur":33727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1690168631278342, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631278355, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1690168631279537, "dur":154363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690168631433906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631433954, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690168631436246, "dur":70273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631506526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631506661, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631507817, "dur":78326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631586151, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631586164, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631587590, "dur":83362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631670957, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631670968, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631671947, "dur":273750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631945705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631945717, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631947029, "dur":39118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631986154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168631986168, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168631987577, "dur":42724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632030306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632030316, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632031790, "dur":24000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632055797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632055807, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632057110, "dur":12492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632069642, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632069654, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632071194, "dur":42062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632113261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632113270, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632115317, "dur":1206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632116528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632116536, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632117737, "dur":85354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632203099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632203111, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632204701, "dur":46896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632251605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632251619, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632252809, "dur":86355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632339170, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632339186, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632340765, "dur":65697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632406470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632406483, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632407682, "dur":19000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632426689, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632426702, "dur":20447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632447177, "dur":37153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632484336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632484346, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632485357, "dur":66314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632551675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632551685, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632552633, "dur":68094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632620734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632620765, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632621810, "dur":77321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632699137, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632699150, "dur":2703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632701882, "dur":50821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632752708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632752718, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632755218, "dur":1431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632756654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632756663, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632757889, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632758597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632758607, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632759873, "dur":48486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632808366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632808378, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632809995, "dur":114400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632924436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168632924448, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168632925581, "dur":284541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633210129, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168633210141, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633211821, "dur":196456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633408284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168633408297, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633409496, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633409793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168633409802, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633410762, "dur":8353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633419121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168633419133, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633424015, "dur":544359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633968381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690168633968454, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690168633969792, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1690168633969795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631128173, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631128598, "dur":7720, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631136330, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1690168631136424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631137601, "dur":400, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1690168631138008, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1690168631138103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631138623, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1690168631141959, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690168631142176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631142257, "dur":33875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690168631176216, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1690168631176580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631176591, "dur":17265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1690168631193960, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690168631194205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631194233, "dur":13543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1690168631207868, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690168631208170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631208600, "dur":36102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1690168631244796, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1690168631245027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631245071, "dur":21423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1690168631266573, "dur":94285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631360865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631361091, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631363122, "dur":1039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01.exe" }}
+,{ "pid":12345, "tid":2, "ts":1690168631364165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631364172, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01.exe" }}
+,{ "pid":12345, "tid":2, "ts":1690168631365763, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1690168631365972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631366183, "dur":51733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1690168631418016, "dur":57681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631475703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631476033, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631477028, "dur":48059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631525093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631525105, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631526349, "dur":69811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631596166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631596178, "dur":12760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631608966, "dur":59623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631668596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631668608, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631669769, "dur":78741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631748518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631748529, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631749608, "dur":65485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631815100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631815112, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631816792, "dur":60616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631877414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168631877426, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168631879041, "dur":150141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632029190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632029202, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632030689, "dur":1238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632031933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632031942, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632032950, "dur":55818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632088775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632088787, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632091527, "dur":17253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632108786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632108796, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632110063, "dur":2171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632112239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632112248, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632114036, "dur":1200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632115241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632115249, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632116826, "dur":113344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632230382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632230394, "dur":5253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632235675, "dur":23409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632259091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632259103, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632260461, "dur":18155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632278621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632278631, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632280107, "dur":54771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632334885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632334898, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632336110, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632336351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632336360, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632337274, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632337913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632337922, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632339319, "dur":58557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632397881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632397890, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632398949, "dur":73744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632472700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632472712, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632474630, "dur":128054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632602690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632602703, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632604539, "dur":6238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632610783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632610793, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632613058, "dur":41114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632654177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632654187, "dur":44299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632698514, "dur":2147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632700666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632700675, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632701826, "dur":2273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632704103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632704112, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632705140, "dur":46551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632751697, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632751710, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632752908, "dur":4520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632757433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632757442, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632759756, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632760237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632760246, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632761148, "dur":163575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632924730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168632924742, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168632926479, "dur":325523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633252009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633252022, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633254542, "dur":328176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633582726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633582739, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633584488, "dur":162238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633746731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633746756, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690168633750811, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1690168633750873, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633751103, "dur":23667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1690168633774872, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633774968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633774978, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633777987, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633778013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633778021, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633778918, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1690168633778943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633778949, "dur":14255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1690168633793231, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633793258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633793267, "dur":15928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633809223, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633809250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633809257, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633811924, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1690168633812155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633812164, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1690168633813283, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633813307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633813313, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633814343, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633814366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633814372, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1690168633815524, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633815549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633815555, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633816586, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690168633816610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633816616, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690168633817420, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633817443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633817449, "dur":9580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1690168633827054, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1690168633827401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690168633827408, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1690168633829565, "dur":140255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631128222, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631128607, "dur":7837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631136444, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690168631137069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631138268, "dur":27892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690168631166248, "dur":27199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631193452, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631193463, "dur":8325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631201940, "dur":42548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631244493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631244504, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631245622, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631245896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168631245904, "dur":32572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1690168631278569, "dur":835424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632114003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632114011, "dur":71959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632186076, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632186304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632186314, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632187310, "dur":49121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632236436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632236446, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632237757, "dur":38374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632276136, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632276146, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632280572, "dur":11067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632291647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632291660, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632292763, "dur":48961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632341729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632341738, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632342932, "dur":20444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632363384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632363397, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632366368, "dur":105926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632472302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632472387, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632473629, "dur":125862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632599499, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632599514, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632600541, "dur":1669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632602215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632602226, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632603752, "dur":207534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632811291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632811301, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632812470, "dur":153997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632966475, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632966489, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632967800, "dur":1388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632969193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168632969202, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168632970141, "dur":131270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633101418, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633101432, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633102634, "dur":130866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633233507, "dur":392, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633233911, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633235196, "dur":75325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633310528, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633310541, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633311553, "dur":66948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633378509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633378522, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633379849, "dur":2061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633381915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633381925, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633383952, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633384273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633384283, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633385415, "dur":207881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633593303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633593315, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633595563, "dur":146374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633741944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633741957, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633743332, "dur":65202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633808545, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633809508, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690168633811929, "dur":8477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1690168633820412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633820422, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1690168633821851, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1690168633821875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633821882, "dur":2910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1690168633824813, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690168633824839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633824846, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690168633826006, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1690168633826037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690168633826044, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1690168633827377, "dur":142466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631128602, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631128603, "dur":7968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631136571, "dur":46636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631183212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631183222, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631184795, "dur":16449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631201249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631201259, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631202336, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690168631202549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631202558, "dur":5707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1690168631208409, "dur":36138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631244552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631244563, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690168631245763, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1690168631245975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631245984, "dur":28212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1690168631274336, "dur":370083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631644427, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631644491, "dur":7726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631652326, "dur":87836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631740170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631740182, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631741929, "dur":66031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631807968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631807980, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631809076, "dur":65329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631874412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631874425, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631877421, "dur":87754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631965184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168631965197, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168631966737, "dur":124123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632090937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632090949, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632092124, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632092346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632092355, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632093246, "dur":17039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632110291, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632110301, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632111815, "dur":50741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632162564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632162576, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632163851, "dur":780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632164637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632164647, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632165795, "dur":63606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632229409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632229422, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632230630, "dur":37169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632267804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632267815, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632276933, "dur":69849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632346787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632346829, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632347859, "dur":49145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632397011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632397024, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632398169, "dur":46321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632444498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632444511, "dur":10483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632455023, "dur":2490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632457519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632457530, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632460107, "dur":89756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632549933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632549947, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632553434, "dur":53646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632607087, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632607099, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632608398, "dur":43037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632651443, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632651454, "dur":46319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632697797, "dur":5035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632702837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632702846, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632705018, "dur":46892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632751916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632751928, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632753348, "dur":1517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632754870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632754880, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632756031, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632756813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632756868, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632759629, "dur":1539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632761173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168632761180, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168632762761, "dur":419739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633182508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168633182520, "dur":4990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633187538, "dur":73721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633261266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168633261278, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633262442, "dur":4872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633267321, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168633267340, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633271025, "dur":559897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633830927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690168633830936, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/lupi/unity/Reto01/Reto01_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690168633836443, "dur":133375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690168633975016, "dur":2925, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1690168634002265, "dur": 1048, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690168634001848, "dur": 1495, "ph": "X", "name": "Write chrome-trace events", "args": {} },
