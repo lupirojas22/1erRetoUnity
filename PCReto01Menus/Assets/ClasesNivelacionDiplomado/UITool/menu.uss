@@ -1,0 +1,526 @@
+.Container {
+    background-color: rgba(56, 56, 56, 0.02);
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    display: none;
+}
+
+.Right {
+    background-color: rgba(36, 52, 72, 0.97);
+    width: 1470px;
+    height: 1080px;
+    align-items: center;
+    justify-content: center;
+    translate: 31% 0;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.Left {
+    background-color: rgba(255, 255, 255, 0.42);
+    width: 450px;
+    height: 1080px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left-color: rgb(161, 225, 250);
+    border-right-color: rgb(161, 225, 250);
+    border-top-color: rgb(161, 225, 250);
+    border-bottom-color: rgb(161, 225, 250);
+    border-left-width: 5px;
+    border-right-width: 10px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+}
+
+.Header {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(56, 56, 56, 0);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.LogoHeader {
+    background-image: url('project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat2.PNG?fileID=391446254&guid=dda25da52225497459da573d46fcc86f&type=3#cat2_2');
+    width: 100px;
+    height: 100px;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-property: all;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Logo-Header:hover {
+    background-image: url('project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat2.PNG?fileID=-1868634903&guid=dda25da52225497459da573d46fcc86f&type=3#cat2_0');
+}
+
+.textHeader {
+    justify-content: space-between;
+    align-items: center;
+    transition-duration: 0s;
+    transition-timing-function: ease-in;
+    font-size: 70px;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    -unity-text-align: upper-center;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(124, 181, 214);
+    text-shadow: 4px 5px 0 rgb(90, 140, 172);
+    width: 400px;
+}
+
+.Button {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(74, 141, 183, 0.76);
+    flex-direction: column;
+    border-left-color: rgb(59, 113, 121);
+    border-right-color: rgb(59, 113, 121);
+    border-top-color: rgb(59, 113, 121);
+    border-bottom-color: rgb(59, 113, 121);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 0;
+}
+
+.ButtonMenu {
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 50px;
+    background-color: rgb(124, 181, 214);
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    -unity-font-style: normal;
+    color: rgb(253, 247, 247);
+    margin-bottom: 35px;
+    border-left-color: rgb(224, 235, 241);
+    border-right-color: rgb(224, 235, 241);
+    border-top-color: rgb(224, 235, 241);
+    border-bottom-color: rgb(224, 235, 241);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.Button-Menu:hover {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    background-color: rgb(241, 241, 241);
+    color: rgb(124, 181, 214);
+    border-left-color: rgb(152, 185, 204);
+    border-right-color: rgb(152, 185, 204);
+    border-top-color: rgb(152, 185, 204);
+    border-bottom-color: rgb(152, 185, 204);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.Footer {
+    width: 435px;
+    height: 150px;
+    background-color: rgba(102, 188, 153, 0.84);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LogoFooter {
+    width: 75px;
+    height: 75px;
+    background-color: rgba(127, 127, 127, 0);
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('project://database/Assets/ClasesNivelacionDiplomado/Sprites/gato.png?fileID=820966297&guid=53771cc1f2fa55a418278f7bb8fe0941&type=3#gato_4');
+    margin-top: 20px;
+}
+
+.TextFooter {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 25px;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    align-items: center;
+}
+
+.Hanger {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hanger-Title {
+    font-size: 60px;
+    -unity-text-align: upper-center;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(90, 141, 173);
+}
+
+.Hanger-Objects {
+    flex-direction: row;
+}
+
+.Left-Objects {
+    flex-direction: row;
+    width: 630px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.Right-Objects {
+    height: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.Btn-Hanger {
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    opacity: 0.51;
+    -unity-background-image-tint-color: rgb(209, 235, 250);
+}
+
+.Btn-Hanger:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+    opacity: 1;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+
+.Instructions-Hanger {
+    font-size: 25px;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    -unity-text-align: upper-left;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.Name-Object-Hanger {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 28px;
+    -unity-font-style: italic;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(90, 141, 173);
+    -unity-text-outline-width: 2px;
+}
+
+.Stadistic {
+    flex-direction: column;
+}
+
+.Property-Statistics {
+    font-size: 18px;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    margin-top: 7px;
+}
+
+.BackButton {
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(124, 181, 214);
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 40px;
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: flex-end;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.unity-progress-bar__progress {
+    background-color: rgb(108, 180, 151);
+}
+
+.contenHanger {
+    translate: 10% 0;
+    opacity: 1;
+    transition-duration: 0s;
+    display: none;
+}
+
+.contenHanger-Active {
+    translate: 10% 0;
+    transition-duration: 0.5s;
+    display: flex;
+}
+
+.contenJugar {
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(90, 141, 173, 0);
+    height: 1080px;
+    translate: 0 0;
+    flex-basis: auto;
+    display: none;
+    flex-wrap: nowrap;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.contenJugar-Active {
+    opacity: 1;
+    display: flex;
+    transition-duration: 0.5s;
+}
+
+.nivelJuego {
+    width: 800px;
+    height: 700px;
+    background-color: rgb(108, 180, 151);
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-color: rgb(59, 113, 121);
+    border-right-color: rgb(59, 113, 121);
+    border-top-color: rgb(59, 113, 121);
+    border-bottom-color: rgb(59, 113, 121);
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnNivel {
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 28px;
+    -unity-text-align: lower-center;
+    -unity-font-style: normal;
+    background-image: none;
+    background-color: rgb(124, 181, 214);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(12, 7, 24);
+    -unity-background-image-tint-color: rgb(197, 212, 211);
+    opacity: 0.84;
+}
+
+.btnNivel:hover {
+    -unity-background-image-tint-color: rgb(244, 245, 244);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    translate: 1px 1px;
+    opacity: 1;
+}
+
+.textNivelDificultad {
+    font-size: 30px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 15px;
+}
+
+.contenOpcion {
+    height: 1080px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.OpcionesJuego {
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(90, 141, 173);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.titulOpcion {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-left;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(124, 181, 214);
+}
+
+.Home {
+    width: 550px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url('project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat3.PNG?fileID=-758002577&guid=d662b174cb6349348b39a214fe24a607&type=3#cat3_4');
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.textHome {
+    font-size: 50px;
+    -unity-text-align: upper-center;
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    -unity-text-outline-color: rgb(255, 255, 255);
+    color: rgb(8, 4, 22);
+    -unity-text-outline-width: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContenedorMenuEscena {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menuContent {
+    background-color: rgb(202, 94, 94);
+    width: 800px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin-left: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contenVidas {
+    flex-direction: row;
+    background-color: rgb(124, 181, 214);
+    width: 200px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 50px;
+}
+
+.TituloVidas {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 40px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(40, 58, 82);
+    -unity-text-align: middle-center;
+}
+
+.totalVidas {
+    -unity-font-definition: url('project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&type=2#Super Foods SDF');
+    font-size: 45px;
+    -unity-text-outline-color: rgb(124, 181, 214);
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0.5px;
+    -unity-text-align: middle-left;
+}
+
+.BtnMenuGame {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+    margin-right: 40px;
+    background-color: rgb(124, 181, 214);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.BtnMenuGame:hover {
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(20, 18, 38);
+    translate: 1px 1px;
+}
+
+.contentPausa {
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 37, 43);
+    width: 550px;
+    height: 600px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left-color: rgb(16, 18, 36);
+    border-right-color: rgb(16, 18, 36);
+    border-top-color: rgb(16, 18, 36);
+    border-bottom-color: rgb(16, 18, 36);
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+}
