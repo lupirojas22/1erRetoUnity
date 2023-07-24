@@ -3,8 +3,10 @@ Por : Luisa Fernanda rojas Paipa
 
 Link GitHub: https://github.com/lupirojas22/1erRetoUnity.git
 
-Carpeta proyecto de Unity :PCReto01Menus
+Carpeta proyecto de Unity :PCReto01Menus  (no subi la carpeta Library)
 Carpeta del ejecutable : Reto01Ejecutable
+
+unity en que trabaje Unity 2021.3.28f1
 
 Nota: La interfaz fue trabajada en el juego a una resolución Full HD (1920x1080), 
 donde se visualiza correctamente. Sin embargo, al exportar el juego, la pantalla queda cortada.
