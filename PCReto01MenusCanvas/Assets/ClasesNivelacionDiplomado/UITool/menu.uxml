@@ -1,0 +1,84 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ClasesNivelacionDiplomado/UITool/menu.uss?fileID=7433441132597879392&amp;guid=6d329ffb673fbb34283a97d3e8d3e5bb&amp;type=3#menu" />
+    <ui:VisualElement name="Container" class="Container" style="display: flex;">
+        <ui:VisualElement name="Left" class="Left">
+            <ui:VisualElement name="Header" class="Header">
+                <ui:VisualElement name="LogoHeader" class="LogoHeader Logo-Header" />
+                <ui:Label text="juego Reto1" display-tooltip-when-elided="true" name="TextHEADER" class="textHeader" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Button" class="Button">
+                <ui:Button text="JUGAR" display-tooltip-when-elided="true" name="PlayButton" class="ButtonMenu Button-Menu" />
+                <ui:Button text="Personajes" display-tooltip-when-elided="true" name="hangerButton" class="ButtonMenu Button-Menu" />
+                <ui:Button text="Opciones" display-tooltip-when-elided="true" name="OptionsBtn" class="ButtonMenu Button-Menu" />
+                <ui:Button text="Salir" display-tooltip-when-elided="true" name="ExitBtn" class="ButtonMenu Button-Menu" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Footer" class="Footer">
+                <ui:VisualElement name="LogoFooter" class="LogoFooter" />
+                <ui:Label text="@1er Reto" display-tooltip-when-elided="true" name="textFooter" class="TextFooter" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" class="Right">
+            <ui:VisualElement name="contenHanger" class="contenHanger">
+                <ui:VisualElement name="Hanger" class="Hanger">
+                    <ui:Label text="Personajes" display-tooltip-when-elided="true" name="HangerTitle" enable-rich-text="false" class="Hanger-Title" />
+                    <ui:VisualElement name="HangerObjects" class="Hanger-Objects">
+                        <ui:VisualElement name="LeftObjects" class="Left-Objects">
+                            <ui:Button display-tooltip-when-elided="true" name="Btn01Hanger" class="Btn-Hanger" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat1.PNG?fileID=-1505851145&amp;guid=779bb84c378cbe7428dd423fa68ef8bb&amp;type=3#cat1_6&apos;); background-color: rgb(113, 165, 197);" />
+                            <ui:Button display-tooltip-when-elided="true" name="Btn02Hanger" class="Btn-Hanger" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat2.PNG?fileID=775395982&amp;guid=dda25da52225497459da573d46fcc86f&amp;type=3#cat2_3&apos;); background-color: rgb(113, 165, 198);" />
+                            <ui:Button display-tooltip-when-elided="true" name="Btn03Hanger" class="Btn-Hanger" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat2.PNG?fileID=-1621019654&amp;guid=dda25da52225497459da573d46fcc86f&amp;type=3#cat2_6&apos;); background-color: rgb(113, 165, 198);" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="RightObjects" class="Right-Objects">
+                            <ui:Label text="Seleccione un personaje para jugar" display-tooltip-when-elided="true" name="InstructionsHanger" class="Instructions-Hanger" style="font-size: 23px; -unity-text-align: upper-left; -unity-font-style: normal; -unity-font-definition: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Font/Super%20Foods%20SDF.asset?fileID=11400000&amp;guid=45b8a2611ab7b6d4687c6bd4ad3b10c1&amp;type=2#Super Foods SDF&apos;);" />
+                            <ui:Label text="Nombre Gato" display-tooltip-when-elided="true" name="NameObjectHanger" class="Name-Object-Hanger" />
+                            <ui:VisualElement name="Stadistic" class="Stadistic">
+                                <ui:Label text="Poder" display-tooltip-when-elided="true" name="PropertyStatistics" class="Property-Statistics" />
+                                <ui:ProgressBar value="22" name="BarStatistics1" class="Bar-Statistics" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stadistic" class="Stadistic">
+                                <ui:Label text="Velocidad" display-tooltip-when-elided="true" name="PropertyStatistics" class="Property-Statistics" />
+                                <ui:ProgressBar value="22" name="BarStatistics2" class="Bar-Statistics" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stadistic" class="Stadistic">
+                                <ui:Label text="Salto" display-tooltip-when-elided="true" name="PropertyStatistics" class="Property-Statistics" />
+                                <ui:ProgressBar value="22" name="BarStatistics3" class="Bar-Statistics" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:Button text="volver" display-tooltip-when-elided="true" name="BackButton" class="BackButton Button-Menu" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="contenJugar" class="contenJugar">
+                <ui:Label text="Escoge  el nivel  de dificultad" display-tooltip-when-elided="false" name="IndicacionesJugar" class="Hanger-Title" />
+                <ui:VisualElement name="nivelJuego" class="nivelJuego">
+                    <ui:Label text="Para continuar, haz clic en el nivel de dificultad&#10; en el que deseas jugar." display-tooltip-when-elided="true" name="textNivelDificultad" enable-rich-text="false" class="textNivelDificultad" />
+                    <ui:Button text="Gatito Tranquilo" display-tooltip-when-elided="true" name="btnNivel1" class="btnNivel" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat3.PNG?fileID=-1972333880&amp;guid=d662b174cb6349348b39a214fe24a607&amp;type=3#cat3_0&apos;);" />
+                    <ui:Button text="Aventura Felina" display-tooltip-when-elided="true" name="btnNivel2" class="btnNivel" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat3.PNG?fileID=-893440542&amp;guid=d662b174cb6349348b39a214fe24a607&amp;type=3#cat3_1&apos;);" />
+                    <ui:Button text="Desafío Gatuno" display-tooltip-when-elided="true" name="btnNivel3" enable-rich-text="true" class="btnNivel" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cat3.PNG?fileID=-1467369218&amp;guid=d662b174cb6349348b39a214fe24a607&amp;type=3#cat3_2&apos;);" />
+                </ui:VisualElement>
+                <ui:Button text="Volver" display-tooltip-when-elided="true" enable-rich-text="false" name="btnVolverNivelJuego" class="BackButton" />
+            </ui:VisualElement>
+            <ui:VisualElement name="contenOpcion" class="contenOpcion" style="display: none;">
+                <ui:Label text="Panel de Opciones" display-tooltip-when-elided="true" name="tituloOpcion" enable-rich-text="false" class="Hanger-Title" style="align-items: center; justify-content: flex-start;" />
+                <ui:VisualElement name="panelOpciones" class="nivelJuego">
+                    <ui:Label text="En este módulo, podrás configurar&#10; las opciones básicas del juego" display-tooltip-when-elided="true" name="textOpciones" class="textNivelDificultad" style="-unity-text-align: middle-center;" />
+                    <ui:VisualElement name="OpcionesJuego" class="OpcionesJuego">
+                        <ui:Label text="Subtítulos" display-tooltip-when-elided="false" name="titulOpcion" class="titulOpcion" />
+                        <ui:Toggle style="margin-left: 10px; width: auto; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="OpcionesJuego" class="OpcionesJuego">
+                        <ui:Label text="Musica" display-tooltip-when-elided="true" name="titulOpcion" class="titulOpcion" />
+                        <ui:Button display-tooltip-when-elided="true" name="MuteButton" style="background-color: rgb(29, 95, 142); width: 40px; height: 40px; background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/ConSonido.png?fileID=21300000&amp;guid=242713fd31fa8ed49a9e32f26f1072da&amp;type=3#ConSonido&apos;); margin-left: 10px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="OpcionesJuego" class="OpcionesJuego">
+                        <ui:Label text="Volumen" display-tooltip-when-elided="true" name="titulOpcion" class="titulOpcion" />
+                        <ui:Slider picking-mode="Ignore" value="5" high-value="0" focusable="true" show-input-field="true" inverted="true" name="VolumeSlider" low-value="10" style="font-size: 12px; width: 200px; margin-left: 10px; background-color: rgba(23, 19, 72, 0);" />
+                    </ui:VisualElement>
+                    <ui:Button text="Volver" display-tooltip-when-elided="true" name="backButtonOpcion" class="BackButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Home" class="Home">
+                <ui:Label text="Reto #1" display-tooltip-when-elided="true" class="textHome" style="-unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

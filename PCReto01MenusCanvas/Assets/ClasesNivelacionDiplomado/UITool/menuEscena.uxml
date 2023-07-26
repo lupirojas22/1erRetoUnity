@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ClasesNivelacionDiplomado/UITool/menu.uss?fileID=7433441132597879392&amp;guid=6d329ffb673fbb34283a97d3e8d3e5bb&amp;type=3#menu" />
+    <ui:VisualElement name="ContenedorMenuEscena" class="ContenedorMenuEscena">
+        <ui:VisualElement name="menuContent" class="menuContent" style="height: 120px; background-color: rgba(17, 20, 37, 0.24); justify-content: center;">
+            <ui:VisualElement name="contenVidas" class="contenVidas" style="height: 75px; width: 250px;">
+                <ui:Label text="Vidas :" display-tooltip-when-elided="true" name="TituloVidas" enable-rich-text="true" class="TituloVidas" />
+                <ui:Label text="10" display-tooltip-when-elided="true" name="totalVidas" enable-rich-text="false" class="totalVidas" style="margin-left: 5px; margin-right: 5px; background-color: rgba(6, 3, 19, 0.91); width: 65px; height: 75px; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:Button display-tooltip-when-elided="true" name="BtnPausa" class="BtnMenuGame" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/boton-de-pausa.png?fileID=21300000&amp;guid=d6d3307fd2fd36f43be3122f96721300&amp;type=3#boton-de-pausa&apos;);" />
+            <ui:Button display-tooltip-when-elided="false" name="BtnHome" enable-rich-text="false" class="BtnMenuGame" style="background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/home.png?fileID=21300000&amp;guid=414b4aa0edd45064a9cb94c317c74b96&amp;type=3#home&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="contentPausa" class="contentPausa" style="display: none;">
+            <ui:Button display-tooltip-when-elided="true" name="btnClosed" class="BtnMenuGame" style="align-items: center; margin-right: 0; width: 40px; height: 40px; background-image: url(&apos;project://database/Assets/ClasesNivelacionDiplomado/Sprites/cerrar-ventana.png?fileID=21300000&amp;guid=a3599cbea2246e145a72640a0dd8d133&amp;type=3#cerrar-ventana&apos;); display: flex;" />
+            <ui:Label text="Opciones de Pausa" display-tooltip-when-elided="true" name="TituloMenuPausa" class="titulOpcion" />
+            <ui:Button text="Seguir jugando" display-tooltip-when-elided="true" name="BtnContinuar" enable-rich-text="false" class="ButtonMenu Button-Menu" style="font-size: 38px;" />
+            <ui:Button text="Menú principal" display-tooltip-when-elided="false" name="BtnRegresar" enable-rich-text="false" class="ButtonMenu Button-Menu" style="font-size: 38px;" />
+            <ui:Button text="Cerrar juego" display-tooltip-when-elided="true" name="BtnSalida" class="ButtonMenu Button-Menu" style="font-size: 38px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
